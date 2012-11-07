@@ -16,7 +16,9 @@ group :development, :test do
   gem 'launchy'
   gem 'rspec-rails'
   gem 'simplecov'
+  gem 'ZenTest'
 end
+
 group :production do
   gem 'pg'
 end
